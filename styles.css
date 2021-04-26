@@ -7,15 +7,16 @@
  font-family: 'Open Sans', sans-serif;
 }
 
+
 header,main,footer
 {
     overflow: hidden;
 
 }
 
-footer{
-    height: 700px
-}
+
+
+
 
 @media only screen and (min-width: 1201px)and (max-width: 1440px)
 {
@@ -24,6 +25,7 @@ header{
     background-image: url("images/bg-hero-desktop.svg");
     background-color: #ebfbff;
     overflow:auto;
+    overflow: hidden;
 }
 
 header nav 
@@ -198,6 +200,7 @@ footer
     flex-direction: column;
     position:relative;
 z-index: 1;
+height: 756px
 }
 
 footer .logo
@@ -460,6 +463,7 @@ footer nav ul li a:hover{
         flex-direction: column;
         position:relative;
     z-index: 1;
+    height: 756px
     }
     
     footer .logo
@@ -724,6 +728,7 @@ top: 20%;
         flex-direction: column;
         position:relative;
     z-index: 1;
+    height: 756px
     }
     
     footer .logo
@@ -1001,6 +1006,7 @@ align-items: center;
         flex-direction: column;
         position:relative;
     z-index: 1;
+    height: 1000px
     }
     
     footer .logo
@@ -1284,6 +1290,7 @@ align-items: center;
         flex-direction: column;
         position:relative;
     z-index: 1;
+    height: 1116px
     }
     
     footer .logo
@@ -1570,6 +1577,7 @@ align-items: center;
         flex-direction: column;
         position:relative;
     z-index: 1;
+    height: 1484px
     }
     
     footer .logo
