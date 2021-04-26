@@ -1,0 +1,1644 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*
+{
+ box-sizing: border-box;
+ margin: 0;
+ font-family: 'Open Sans', sans-serif;
+}
+
+
+@media only screen and (min-width: 1201px)and (max-width: 1440px)
+{
+
+header{
+    background-image: url("images/bg-hero-desktop.svg");
+    background-color: #ebfbff;
+    overflow:auto;
+}
+
+header nav 
+{
+    display:flex;
+    justify-content: flex-end;
+    padding: 8px;
+    margin-top: 47px;
+}
+
+header nav .logo
+{
+  margin-right: auto;
+  margin-left: 62px;
+}
+
+header nav .fthb
+{
+    background-color: white;
+    border: unset;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 172px;
+    height: 38px;
+    font-weight: bold;
+    margin-right: 62px;
+    cursor: pointer;
+    box-shadow: 2px 5px 19px -13px black;
+}
+
+header nav .fthb:hover{
+    background-color: #ebfbff;
+}
+
+header .card .img2
+{
+    width: 100%;
+    order: 2;
+}
+
+header .card
+{
+    margin-top: 62px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    padding: 27px;
+}
+
+header .card div h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+header .card div p
+{
+    margin-top: 50px;
+font-size: 21px;
+}
+
+header .card div input
+{
+    border: unset;
+border-radius: 20px;
+font-size: 16px;
+width: 214px;
+height: 42px;
+font-weight: bold;
+margin-right: 62px;
+cursor: pointer;
+box-shadow: 2px 5px 19px -13px black;
+margin-top: 50px;
+background-color: #ff52bf;
+color: white;
+}
+
+header .card div input:hover{
+    opacity:0.7
+}
+
+
+main
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+}
+main  div > img
+{
+    width: 79%;
+    order: 2;
+}
+
+
+main >div
+{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px auto;
+    box-shadow: 1px 3px 19px -13px black;
+border-radius: 20px;
+padding: 31px;
+width: 90%;
+
+}
+
+main > div section h1
+{
+    font-size: 35px;
+padding: 20px;
+margin-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+main > div section p
+{
+    width: 87%;
+    font-size: 17px;
+    padding: 18px;
+    opacity: 0.7 ;
+    line-height: 36px;
+}
+
+.last_div
+{
+    margin: 50px auto;
+    box-shadow: 1px 3px 19px -13px black;
+border-radius: 20px;
+padding: 31px;
+width: 61%;
+display: flex;
+flex-direction: column;
+align-items: center;
+position:relative;
+z-index: 2;
+bottom: -174px;
+}
+
+.last_div h1
+{
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.last_div input
+{
+    border: unset;
+    border-radius: 20px;
+    font-size: 22px;
+    width: 339px;
+    height: 76px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 5px 19px -13px black;
+    margin-top: 50px;
+    background-color: #ff52bf;
+    color: white;
+}
+
+.last_div input:hover
+{
+    opacity: 0.7;
+}
+
+
+footer
+{
+    background-color: #00a3fa;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+z-index: 1;
+}
+
+footer .logo
+{
+    width: 17%;
+    margin-top: 214px;
+    margin-left: 125px;
+}
+
+footer .container
+{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+footer .container .box1
+{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    font-size: 17px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+footer .container .box1 p
+{
+    margin-top: 50px;
+}
+
+footer .container .box1 p span
+{
+    margin-right: 10px;
+}
+
+footer .container .box1 p a 
+{
+    text-decoration: none;
+    color:#00252e;
+}
+footer .container .box1 p a:hover
+{
+    color: #ff52bf ;
+}
+
+footer nav ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav ul li 
+{
+    margin-top: 20px;
+}
+
+footer nav ul li a
+{
+text-decoration: none;
+color:white;
+font-size: 20px;
+font-weight: bold;
+}
+
+footer nav ul li a:hover{
+    color: #ff52bf ;
+    text-decoration: white;
+}
+
+}
+
+
+
+@media only screen and (min-width: 1025px)and (max-width: 1200px)
+
+{
+
+    header{
+        background-image: url("images/bg-hero-desktop.svg");
+        background-color: #ebfbff;
+        overflow:auto;
+    }
+    
+    header nav 
+    {
+        display:flex;
+        justify-content: flex-end;
+        padding: 8px;
+        margin-top: 47px;
+    }
+    
+    header nav .logo
+    {
+      margin-right: auto;
+      margin-left: 62px;
+    }
+    
+    header nav .fthb
+    {
+        background-color: white;
+        border: unset;
+        border-radius: 20px;
+        font-size: 16px;
+        width: 172px;
+        height: 38px;
+        font-weight: bold;
+        margin-right: 62px;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+    }
+    
+    header nav .fthb:hover{
+        background-color: #ebfbff;
+    }
+    
+    header .card .img2
+    {
+        width: 100%;
+        order: 2;
+    }
+    
+    header .card
+    {
+        margin-top: 62px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2rem;
+        padding: 27px;
+    }
+    
+    header .card div h1{
+        font-weight: 900;
+        font-size: 40px;
+    }
+    
+    header .card div p
+    {
+        margin-top: 50px;
+    font-size: 21px;
+    }
+    
+    header .card div input
+    {
+        border: unset;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 214px;
+    height: 42px;
+    font-weight: bold;
+    margin-right: 62px;
+    cursor: pointer;
+    box-shadow: 2px 5px 19px -13px black;
+    margin-top: 50px;
+    background-color: #ff52bf;
+    color: white;
+    }
+    
+    header .card div input:hover{
+        opacity:0.7
+    }
+    
+    
+    main
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    main  div > img
+    {
+        width: 100%;
+        order: 2;
+    }
+    
+    
+    main >div
+    {
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 90%;
+    
+    }
+    
+    main > div section h1
+    {
+        font-size: 35px;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    main > div section p
+    {
+        width: 87%;
+        font-size: 17px;
+        padding: 18px;
+        opacity: 0.7 ;
+        line-height: 36px;
+    }
+    
+    .last_div
+    {
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    z-index: 2;
+    bottom: -174px;
+    }
+    
+    .last_div h1
+    {
+        font-size: 31px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    .last_div input
+    {
+        border: unset;
+        border-radius: 20px;
+        font-size: 22px;
+        width: 339px;
+        height: 76px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+        margin-top: 50px;
+        background-color: #ff52bf;
+        color: white;
+    }
+    
+    .last_div input:hover
+    {
+        opacity: 0.7;
+    }
+    
+    
+    footer
+    {
+        background-color: #00a3fa;
+        display:flex;
+        flex-direction: column;
+        position:relative;
+    z-index: 1;
+    }
+    
+    footer .logo
+    {
+        width: 24%;
+        margin-top: 214px;
+        margin-left: 59px;
+    }
+    
+    footer .container
+    {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 30px;
+      padding: 30px;
+    }
+    
+    footer .container .box1
+    {
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        color: white;
+        font-size: 17px;
+        font-family: arial;
+        font-weight: bold;
+    }
+    
+    footer .container .box1 p
+    {
+        margin-top: 50px;
+    }
+    
+    footer .container .box1 p span
+    {
+        margin-right: 10px;
+    }
+    
+    footer .container .box1 p a 
+    {
+        text-decoration: none;
+        color:#00252e;
+    }
+    footer .container .box1 p a:hover
+    {
+        color: #ff52bf ;
+    }
+    
+    footer nav ul
+    {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer nav ul li 
+    {
+        margin-top: 20px;
+    }
+    
+    footer nav ul li a
+    {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    footer nav ul li a:hover{
+        color: #ff52bf ;
+        text-decoration: white;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px)
+{
+    header{
+        background-image: url("images/bg-hero-desktop.svg");
+        background-color: #ebfbff;
+        overflow:auto;
+    }
+    
+    header nav 
+    {
+        display:flex;
+        justify-content: flex-end;
+        padding: 8px;
+        margin-top: 47px;
+    }
+    
+    header nav .logo
+    {
+      margin-right: auto;
+      margin-left: 62px;
+    }
+    
+    header nav .fthb
+    {
+        background-color: white;
+        border: unset;
+        border-radius: 20px;
+        font-size: 16px;
+        width: 172px;
+        height: 38px;
+        font-weight: bold;
+        margin-right: 62px;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+    }
+    
+    header nav .fthb:hover{
+        background-color: #ebfbff;
+    }
+    
+    header .card .img2
+    {
+        width: 100%;
+        order: 2;
+        margin-top: 40px;
+    }
+    
+    header .card
+    {
+        margin-top: 62px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 27px;
+    }
+    
+    header .card div h1{
+        font-weight: 900;
+        font-size: 40px;
+    }
+    
+    header .card div p
+    {
+        margin-top: 50px;
+    font-size: 21px;
+    }
+    
+    header .card div input
+    {
+        border: unset;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 214px;
+    height: 42px;
+    font-weight: bold;
+    margin-right: 62px;
+    cursor: pointer;
+    box-shadow: 2px 5px 19px -13px black;
+    margin-top: 50px;
+    background-color: #ff52bf;
+    color: white;
+    }
+    
+    header .card div input:hover{
+        opacity:0.7
+    }
+    
+    
+    main
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    main  div > img
+    {
+        width: 100%;
+        order: 2;
+        position: relative;
+top: 20%;
+    }
+    
+    
+    main >div
+    {
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 90%;
+    
+    }
+    
+    main > div section h1
+    {
+        font-size: 35px;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    main > div section p
+    {
+        width: 87%;
+        font-size: 17px;
+        padding: 18px;
+        opacity: 0.7 ;
+        line-height: 36px;
+    }
+    
+    .last_div
+    {
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    z-index: 2;
+    bottom: -174px;
+    }
+    
+    .last_div h1
+    {
+        font-size: 31px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    .last_div input
+    {
+        border: unset;
+        border-radius: 20px;
+        font-size: 22px;
+        width: 339px;
+        height: 76px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+        margin-top: 50px;
+        background-color: #ff52bf;
+        color: white;
+    }
+    
+    .last_div input:hover
+    {
+        opacity: 0.7;
+    }
+    
+    
+    footer
+    {
+        background-color: #00a3fa;
+        display:flex;
+        flex-direction: column;
+        position:relative;
+    z-index: 1;
+    }
+    
+    footer .logo
+    {
+        width: 24%;
+        margin-top: 214px;
+        margin-left: 59px;
+    }
+    
+    footer .container
+    {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 30px;
+      padding: 30px;
+    }
+    
+    footer .container .box1
+    {
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        color: white;
+        font-size: 17px;
+        font-family: arial;
+        font-weight: bold;
+    }
+    
+    footer .container .box1 p
+    {
+        margin-top: 50px;
+    }
+    
+    footer .container .box1 p span
+    {
+        margin-right: 10px;
+    }
+    
+    footer .container .box1 p a 
+    {
+        text-decoration: none;
+        color:#00252e;
+    }
+    footer .container .box1 p a:hover
+    {
+        color: #ff52bf ;
+    }
+    
+    footer nav ul
+    {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer nav ul li 
+    {
+        margin-top: 20px;
+    }
+    
+    footer nav ul li a
+    {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    footer nav ul li a:hover{
+        color: #ff52bf ;
+        text-decoration: white;
+    }
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width:768px) 
+{
+
+    header{
+        background-image: url("images/bg-hero-desktop.svg");
+        background-color: #ebfbff;
+        overflow:auto;
+    }
+    
+    header nav 
+    {
+        display:flex;
+        justify-content: flex-end;
+        padding: 8px;
+        margin-top: 47px;
+    }
+    
+    header nav .logo
+    {
+      margin-right: auto;
+     width: 30%;
+     height: 30%;
+    }
+    
+    header nav .fthb
+    {
+        background-color: white;
+        border: unset;
+        border-radius: 20px;
+        font-size: 14px;
+        width: 110px;
+        height: 34px;
+        font-weight: bold;
+        margin-right: 12px;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+    }
+    
+    header nav .fthb:hover{
+        background-color: #ebfbff;
+    }
+    
+    header .card .img2
+    {
+        width: 100%;
+        order: 2;
+        margin-top: 40px;
+    }
+    
+    header .card
+    {
+        margin-top: 62px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 27px;
+    }
+
+    header .card .card_child
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header .card div h1{
+        font-weight: 900;
+        font-size: 40px;
+    }
+    
+    header .card div p
+    {
+        margin-top: 50px;
+    font-size: 21px;
+    }
+    
+    header .card div input
+    {
+        border: unset;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 214px;
+    height: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 5px 19px -13px black;
+    margin-top: 50px;
+    background-color: #ff52bf;
+    color: white;
+    }
+    
+    header .card div input:hover{
+        opacity:0.7
+    }
+    
+    
+    main
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    main  div > img
+    {
+        width: 100%;
+        position: relative;
+top: 20%;
+    }
+    
+    
+    main >div
+    {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 90%;
+    
+    }
+
+    main > div section
+    {
+        display: flex;
+flex-direction: column;
+align-items: center;
+    }
+    
+    main > div section h1
+    {
+        font-size: 29px;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    main > div section p
+    {
+        width: 87%;
+        font-size: 17px;
+        padding: 18px;
+        opacity: 0.7 ;
+        line-height: 36px;
+    }
+    
+    .last_div
+    {
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    z-index: 2;
+    bottom: -174px;
+    }
+    
+    .last_div h1
+    {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    .last_div input
+    {
+        border: unset;
+        border-radius: 20px;
+        font-size: 13px;
+        width: 220px;
+        height: 54px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+        margin-top: 50px;
+        background-color: #ff52bf;
+        color: white;
+    }
+    
+    .last_div input:hover
+    {
+        opacity: 0.7;
+    }
+    
+    
+    footer
+    {
+        background-color: #00a3fa;
+        display:flex;
+        flex-direction: column;
+        position:relative;
+    z-index: 1;
+    }
+    
+    footer .logo
+    {
+        width: 39%;
+        margin: 214px auto 0px;
+    }
+    
+    footer .container
+    {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 30px;
+      padding: 30px;
+    }
+
+    footer nav{
+        margin-top: 50px;
+        margin-right: auto;
+    }
+    
+    footer .container .box1
+    {
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 17px;
+        font-family: arial;
+        font-weight: bold;
+        width: 100%;
+    }
+    
+    footer .container .box1 p
+    {
+        margin-top: 50px;
+    }
+    
+    footer .container .box1 p span
+    {
+        margin-right: 10px;
+    }
+    
+    footer .container .box1 p a 
+    {
+        text-decoration: none;
+        color:#00252e;
+    }
+    footer .container .box1 p a:hover
+    {
+        color: #ff52bf ;
+    }
+    
+    footer nav ul
+    {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer nav ul li 
+    {
+        margin-top: 20px;
+    }
+    
+    footer nav ul li a
+    {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    footer nav ul li a:hover{
+        color: #ff52bf ;
+        text-decoration: white;
+    }
+}
+
+
+@media only screen and (min-width: 453px) and (max-width : 480px)
+{
+
+    header{
+        background-image: url("images/bg-hero-desktop.svg");
+        background-color: #ebfbff;
+        overflow:auto;
+    }
+    
+    header nav 
+    {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        margin-top: 47px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header nav .logo
+    {
+        width: 65%;
+        height: 30%;
+    }
+    
+    header nav .fthb
+    {
+        display: none;
+        background-color: white;
+        border: unset;
+        border-radius: 20px;
+        font-size: 14px;
+        width: 110px;
+        height: 34px;
+        font-weight: bold;
+        margin-right: 12px;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+    }
+    
+    header nav .fthb:hover{
+        background-color: #ebfbff;
+    }
+    
+    header .card .img2
+    {
+        width: 100%;
+        order: 2;
+        margin-top: 40px;
+    }
+    
+    header .card
+    {
+        margin-top: 62px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 27px;
+    }
+
+    header .card .card_child
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header .card div h1{
+        font-weight: 900;
+        font-size: 40px;
+    }
+    
+    header .card div p
+    {
+        margin-top: 50px;
+    font-size: 21px;
+    }
+    
+    header .card div input
+    {
+        border: unset;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 214px;
+    height: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 5px 19px -13px black;
+    margin-top: 50px;
+    background-color: #ff52bf;
+    color: white;
+    }
+    
+    header .card div input:hover{
+        opacity:0.7
+    }
+    
+    
+    main
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    main  div > img
+    {
+        width: 100%;
+        position: relative;
+top: 20%;
+    }
+    
+    
+    main >div
+    {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 90%;
+    
+    }
+
+    main > div section
+    {
+        display: flex;
+flex-direction: column;
+align-items: center;
+    }
+    
+    main > div section h1
+    {
+        font-size: 27px;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    main > div section p
+    {
+        width: 87%;
+        font-size: 17px;
+        padding: 18px;
+        opacity: 0.7 ;
+        line-height: 36px;
+    }
+    
+    .last_div
+    {
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    z-index: 2;
+    bottom: -174px;
+    }
+    
+    .last_div h1
+    {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    .last_div input
+    {
+        border: unset;
+        border-radius: 20px;
+        font-size: 13px;
+        width: 220px;
+        height: 54px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+        margin-top: 50px;
+        background-color: #ff52bf;
+        color: white;
+    }
+    
+    .last_div input:hover
+    {
+        opacity: 0.7;
+    }
+    
+    
+    footer
+    {
+        background-color: #00a3fa;
+        display:flex;
+        flex-direction: column;
+        position:relative;
+    z-index: 1;
+    }
+    
+    footer .logo
+    {
+        width: 43%;
+        margin: 214px auto 0px;
+    }
+    
+    footer .container
+    {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 30px;
+      padding: 30px;
+    }
+
+    footer nav{
+        margin-top: 50px;
+        margin-right: auto;
+    }
+    
+    footer .container .box1
+    {
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 17px;
+        font-family: arial;
+        font-weight: bold;
+        width: 100%;
+    }
+    
+    footer .container .box1 p
+    {
+        margin-top: 50px;
+    }
+    
+    footer .container .box1 p span
+    {
+        margin-right: 10px;
+    }
+    
+    footer .container .box1 p a 
+    {
+        text-decoration: none;
+        color:#00252e;
+    }
+    footer .container .box1 p a:hover
+    {
+        color: #ff52bf ;
+    }
+    
+    footer nav ul
+    {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer nav ul li 
+    {
+        margin-top: 20px;
+    }
+    
+    footer nav ul li a
+    {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    footer nav ul li a:hover{
+        color: #ff52bf ;
+        text-decoration: white;
+    }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width : 452px)
+
+{
+    header{
+        background-image: url("images/bg-hero-desktop.svg");
+        background-color: #ebfbff;
+        overflow:auto;
+    }
+    
+    header nav 
+    {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        margin-top: 47px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header nav .logo
+    {
+        width: 65%;
+        height: 30%;
+    }
+    
+    header nav .fthb
+    {
+        display: none;
+        background-color: white;
+        border: unset;
+        border-radius: 20px;
+        font-size: 14px;
+        width: 110px;
+        height: 34px;
+        font-weight: bold;
+        margin-right: 12px;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+    }
+    
+    header nav .fthb:hover{
+        background-color: #ebfbff;
+    }
+    
+    header .card .img2
+    {
+        width: 100%;
+        order: 2;
+        margin-top: 40px;
+    }
+    
+    header .card
+    {
+        margin-top: 62px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 27px;
+    }
+
+    header .card .card_child
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header .card div h1{
+        font-weight: 900;
+        font-size: 27px;
+        text-align: center;
+    }
+    
+    header .card div p
+    {
+        margin-top: 50px;
+    font-size: 19px;
+    text-align: center;
+    }
+    
+    header .card div input
+    {
+        border: unset;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 214px;
+    height: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 5px 19px -13px black;
+    margin-top: 50px;
+    background-color: #ff52bf;
+    color: white;
+    }
+    
+    header .card div input:hover{
+        opacity:0.7
+    }
+    
+    
+    main
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+    }
+    main  div > img
+    {
+        width: 100%;
+        position: relative;
+top: 20%;
+    }
+    
+    
+    main >div
+    {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 90%;
+    
+    }
+
+    main > div section
+    {
+        display: flex;
+flex-direction: column;
+align-items: center;
+    }
+    
+    main > div section h1
+    {
+        font-size: 23px;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    
+    main > div section p
+    {
+        width: 100%;
+        font-size: 17px;
+        opacity: 0.7 ;
+        text-align: center;
+    }
+    
+    .last_div
+    {
+        margin: 50px auto;
+        box-shadow: 1px 3px 19px -13px black;
+    border-radius: 20px;
+    padding: 31px;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    z-index: 2;
+    bottom: -174px;
+    }
+    
+    .last_div h1
+    {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .last_div input
+    {
+        border: unset;
+        border-radius: 20px;
+        font-size: 13px;
+        width: 220px;
+        height: 54px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 2px 5px 19px -13px black;
+        margin-top: 50px;
+        background-color: #ff52bf;
+        color: white;
+    }
+    
+    .last_div input:hover
+    {
+        opacity: 0.7;
+    }
+    
+    
+    footer
+    {
+        background-color: #00a3fa;
+        display:flex;
+        flex-direction: column;
+        position:relative;
+    z-index: 1;
+    }
+    
+    footer .logo
+    {
+        width: 61%;
+        margin: 214px auto 0px;
+    }
+    
+    footer .container
+    {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 30px;
+      padding: 30px;
+    }
+
+    footer nav{
+        margin-top: 50px;
+        margin-right: auto;
+    }
+    
+    footer .container .box1
+    {
+        width: 37%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 17px;
+        font-family: arial;
+        font-weight: bold;
+        width: 100%;
+    }
+    
+    footer .container .box1 p
+    {
+        margin-top: 50px;
+    }
+    
+    footer .container .box1 p span
+    {
+        margin-right: 10px;
+    }
+    
+    footer .container .box1 p a 
+    {
+        text-decoration: none;
+        color:#00252e;
+    }
+    footer .container .box1 p a:hover
+    {
+        color: #ff52bf ;
+    }
+    
+    footer nav ul
+    {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer nav ul li 
+    {
+        margin-top: 20px;
+    }
+    
+    footer nav ul li a
+    {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    footer nav ul li a:hover{
+        color: #ff52bf ;
+        text-decoration: white;
+    } 
+}
